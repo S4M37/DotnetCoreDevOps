@@ -14,6 +14,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CalculatorDotnetCore", "src
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{412DD9D5-F505-421C-91F0-222DF23DA612}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "XUnitTest", "test\XUnitTest\XUnitTest.xproj", "{72134E51-F426-4321-B801-42860B0EB287}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,11 +26,16 @@ Global
 		{C0A23477-339B-4CA4-BB66-0E7DF4833EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0A23477-339B-4CA4-BB66-0E7DF4833EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0A23477-339B-4CA4-BB66-0E7DF4833EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72134E51-F426-4321-B801-42860B0EB287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72134E51-F426-4321-B801-42860B0EB287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72134E51-F426-4321-B801-42860B0EB287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72134E51-F426-4321-B801-42860B0EB287}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C0A23477-339B-4CA4-BB66-0E7DF4833EB5} = {DFE8DD37-0D67-452C-A334-BB14BF0C9B95}
+		{72134E51-F426-4321-B801-42860B0EB287} = {412DD9D5-F505-421C-91F0-222DF23DA612}
 	EndGlobalSection
 EndGlobal

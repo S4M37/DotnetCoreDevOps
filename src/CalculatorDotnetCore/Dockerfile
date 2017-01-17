@@ -6,4 +6,4 @@ WORKDIR /app
 
 EXPOSE 8001
 
-ENTRYPOINT ["dotnet", "WebApi.core.dll"]
+ENTRYPOINT ["dotnet", "CalculatorDotnetCore.dll"]
